@@ -52,3 +52,14 @@ function fib(n) {
 
 My invariant in my code is fib(n, list). With this, it makes sure that the array gets stored correctly in the list and also indices any of the variables less than n. 
 This is important because it enables new values to be created within the list and takes the elements needed. 
+
+Sources: 
+I looked at Nolan Tachbar's code to see how he did it because I knew he was struggling with the test not failing. I also looked at his readme file so I can have an 
+idea of how to write my conclusion as you see our codes do the same thing but our invariants are different in both of them. I also used ChatGPT a couple of times
+when I was trying to write the code in one function and gave up because I had it passed already with a helper function. I used ChatGPT to see what the errors 
+were with my single function code because I still am learning how to read the function. Other than I watched your video and looked at the code that was provided in
+class to us. 
+
+Plagiarism Statement: 
+“I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. 
+I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.”
