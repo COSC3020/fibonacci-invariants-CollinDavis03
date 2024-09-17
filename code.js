@@ -1,4 +1,4 @@
-function Fiboancci(n, list = []){
+function fib(n, list = []){
     if(n < 1) {
         return n; 
     } 
@@ -11,7 +11,7 @@ function Fiboancci(n, list = []){
     return list[n]; 
 }
 
-function fib(n) {
+function Fibonacci(n) {
     let Fibo = []; 
     for (let i = 0; i <= n; i++){
         Fibo[i] = fib(i); 
