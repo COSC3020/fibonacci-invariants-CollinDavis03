@@ -27,3 +27,28 @@ about the current recursive call.
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
+
+Here is my code
+function Fiboancci(n, list = []){
+    if(n < 1) {
+        return n; 
+    } 
+
+    if (list[n] !== undefined) {
+        return list[n]; 
+    }
+
+    list[n] = fib(n -1, list) + fib(n - 2, list);
+    return list[n]; 
+}
+
+function fib(n) {
+    let Fibo = []; 
+    for (let i = 0; i <= n; i++){
+        Fibo[i] = fib(i); 
+    }
+    return Fibo;
+}
+
+My invariant in my code is fib(n, list). With this, it makes sure that the array gets stored correctly in the list and also indices any of the variables less than n. 
+This is important because it enables new values to be created within the list and takes the elements needed. 
