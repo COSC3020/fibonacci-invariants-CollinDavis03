@@ -1,7 +1,11 @@
 function fib(n, list = []){
-    if(n < 1) {
-        return n; 
+    if(n === 0) {
+        return 0; 
     } 
+
+    if (n === 1) {
+        return 1; 
+    }
 
     if (list[n] !== undefined) {
         return list[n]; 
@@ -14,7 +18,7 @@ function fib(n, list = []){
 function Fibonacci(n) {
     let Fibo = []; 
     for (let i = 0; i <= n; i++){
-        Fibo[i] = fib(i); 
+        Fibo[i] = fib(i, Fibo); 
     }
     return Fibo;
 }
