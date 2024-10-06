@@ -1,25 +1,19 @@
-function Fibonacci(n) {
-    let Fibo = []; 
-    for (let i = 0; i <= n; i++){
-        Fibo[i] = fib(i, Fibo); 
-    }
-    return Fibo;
+function fib (a) { 
+
+let arr = [0,1]; 
+
+if (n == 0) {
+    return [0];
 }
 
-
-function fib(n, list = []){
-    if(n === 0) {
-        return 0; 
-    } 
-
-    if (n === 1) {
-        return 1; 
+if (n == 1) {
+    return arr[1]; 
+} else { 
+    for (let i = 2; i <= n; i++) 
+    { 
+        arr.push(arr[i-1]+arr[i-2];
     }
+}
 
-    if (list[n] !== undefined) {
-        return list[n]; 
-    }
-
-    list[n] = fib(n - 1, list) + fib(n - 2, list);
-    return list[n]; 
+return arr; 
 }
