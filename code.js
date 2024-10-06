@@ -1,6 +1,6 @@
 function fib (a) { 
 
-let arr = [0,1]; 
+let arr = [0,1]
 
 if (n == 0) {
     return [0];
