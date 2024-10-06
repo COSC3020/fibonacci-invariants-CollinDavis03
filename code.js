@@ -11,7 +11,7 @@ if (n == 1) {
 } else { 
     for (let i = 2; i <= n; i++) 
     { 
-        arr.push(arr[i-1]+arr[i-2];
+        arr.push(arr[i-1]+arr[i-2]);
     }
 }
 
