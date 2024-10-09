@@ -30,7 +30,7 @@ your answer to this markdown file.
 
 
 Answer: 
-The invariant for this code is a - 1.  The reason is that with each recursive call, this function will look back at the previous call, and it will look at the sum of the previous two elements, and that will dictate that it can keep going. 
+The invariant for this code is a - 1.  I used (a) as (I). I is usually the index of the array. The reason is that with each recursive call, this function will look back at the previous call, and it will look at the sum of the previous two elements, and that will dictate that it can keep going. In this case, I used a as i.
 
 Sources: 
 I looked at Nolan's repo after I wrote my statement explaining the invariants. I added the to clarify after just to make sure I touched everything. I also watched a YouTube video a while back on the C++ Fibonacci function and I took the logic from it and wrote it into javascript. Other than that I have not used anything else. I can not find the exact video I watched to put the link in here. I wrote this code in the past in C++ and I had a hard time transferring it to Java. I looked at Nolan Bergs's function and realized I did not have my invariant set up the correct way and once I changed that and set it up the code passed. The silly little mistake I overlooked. 
