@@ -7,7 +7,7 @@ if (a == 0) {
 }
 
 if (a == 1) {
-    return [1]; 
+    return [0,1]; 
 } 
 else { 
     for (let i = 2; i <= a; i++) { 
