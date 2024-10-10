@@ -30,12 +30,10 @@ your answer to this markdown file.
 
 
 Answer: 
-A good invariant for this would be an array that can hold all the numbers within the sequence. I used the (arr[i-1] + arr[i-2]). The reason I chose this is because it will always be able to hold to elements from the array until I can get the third element. This is always in the same sequence with each iteration until it is stopped or hits the limit. Especially starting with an array [0,1] it should remain true. This will ensure that at the beginning of each iteration, we have the necessary elements to compute the next one. 
-
-To clarify what I am saying above. The index = i and we expect the previous to elements from arr[i-1] and arr[i-2] to be the correct Fibonacci numbers. 
+The invariant in this code is fib(a-1). The invariant in this code is important because before the recursive call, it is returned to the invariant to ensure that the code has the right value up a - 1 of the last run. Then after the recursive call happens it will store the number of sum from the last sequence that it did. 
 
 Sources: 
-I looked at Nolan's repo after I wrote my statement explaning the invariants. I added the to clarify after just to make sure I touched everything. I also watched a YouTube video a while back on the C++ Fibonacci function and I took the logic from it and wrote it into javascript. Other than that I have not used anything else. I can not find the exact video I watched to put the link in here. 
+I looked at Nolan's repo after I wrote my statement explaining the invariants. I added the to clarify after just to make sure I touched everything. I also watched a YouTube video a while back on the C++ Fibonacci function and I took the logic from it and wrote it into javascript. Other than that I have not used anything else. I can not find the exact video I watched to put the link in here. 
 
 Plagiarism Statement: 
 “I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.”
