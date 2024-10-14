@@ -30,9 +30,10 @@ your answer to this markdown file.
 
 
 Answer: 
-Invariant Definition: Looking back at the slides. The invariant or proving an invariant is we have to prove the invariant exists before the loop begins. Then at the end of the iteration prove that it holds the value from the previous iteration. 
+Invariant Definition: 
+Looking back at the slides. The invariant or proving an invariant is we have to prove the invariant exists before the loop begins. Then at the end of the iteration prove that it holds the value from the previous iteration. 
 
-Within my code, the invariant would be fib(a-1). The reason is that the recursive sequence will go up to a - 1. Let's say we do fib(5) which will return us [0,1,1,2,3,5] as the final result even though you see 6 values within the actual array. This went through the sequence 4 times. Before each recursive call that is being done, it will return the value up to fib(a-1) within the sequence. Then after the recursive call, it will add the new Fibonacci number into the array which is the sum of the last two. With this, the array will hold up to the value of an in the Fibonacci sequence. This also enables it to grow with a. 
+Within my code, the invariant would be fib(a-1). The reason is that the recursive sequence will go up to (a - 1). At each start of the recursive call, the arr is filled up with the Fibonacci sequence up to (a - 1). After that the next step is to calculate Fib(a) by summing up the two values at (arr[arr.length - 1] + arr[arr.length - 2]). With this invariant, it helps ensure that the Fibonacci sequence is done correctly step by step.
 
 Sources: 
 I looked at Nolan's repo after I wrote my statement explaining the invariants. I added the to clarify after just to make sure I touched everything. I also watched a YouTube video a while back on the C++ Fibonacci function and I took the logic from it and wrote it into javascript. Other than that I have not used anything else. I can not find the exact video I watched to put the link in here. 
