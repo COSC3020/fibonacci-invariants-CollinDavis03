@@ -34,7 +34,7 @@ Invariant Definition:
 It is something that must hold true throughout the code to ensure it is running correctly. 
 
 Answer: 
-A good invariant for the recursive Fibonacci sequence from arr[0....(arr.length - 1)]. These are defined by the sum of the last two elements in the array and the first two elements are [0,1] are always true. 
+A good invariant for the recursive Fibonacci sequence from arr[0....(arr.length - 1)]. This sequence will show everything up to prior to arr.length or a.  
 
 Sources: 
 I looked at Nolan's repo after I wrote my statement explaining the invariants. I added the to clarify after just to make sure I touched everything. I also watched a YouTube video a while back on the C++ Fibonacci function and I took the logic from it and wrote it into javascript. Other than that I have not used anything else. I can not find the exact video I watched to put the link in here. Talked to Lars after class about it. I hope I did it right and if it is wrong I will talk to TA tomorrow. 
