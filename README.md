@@ -30,7 +30,7 @@ your answer to this markdown file.
 
 
 Answer: 
-The invariant in this code is fib(a-1). The invariant in this code is important because before the recursive call, it is returned to the invariant to ensure that the code has the right value up a - 1 of the last run. Then after the recursive call happens it will store the number of sum from the last sequence that it did. 
+The invariant in this code is arr. The reason is because it contains (a - 1) within it ensures it carries the numbers from 0 to the (a - 1)th number in the sequence. This also will ensure that arr.push(arr[arr.length - 1] + arr[arr.length - 2]) is executed properly and produces the next number in the Fib sequence correctly. 
 
 Sources: 
 I looked at Nolan's repo after I wrote my statement explaining the invariants. I added the to clarify after just to make sure I touched everything. I also watched a YouTube video a while back on the C++ Fibonacci function and I took the logic from it and wrote it into javascript. Other than that I have not used anything else. I can not find the exact video I watched to put the link in here. 
