@@ -34,10 +34,10 @@ Invariant Definition:
 It is something that must hold true throughout the code to ensure it is running correctly. 
 
 Answer: 
-The invariant in this code is arr. The reason is because it contains (a - 1) within it ensures it carries the numbers from 0 to the (a - 1)th number in the sequence. This also will ensure that arr.push(arr[arr.length - 1] + arr[arr.length - 2]) is executed properly and produces the next number in the Fib sequence correctly. 
+The invariant in the code is return arr. The reason is because the function the fib function goes through the whole code and then the numbers get stored in the array and then get returned back so that the function looks back at the array and determines what numbers to add together. 
 
 Sources: 
-I looked at Nolan's repo after I wrote my statement explaining the invariants. I added the to clarify after just to make sure I touched everything. I also watched a YouTube video a while back on the C++ Fibonacci function and I took the logic from it and wrote it into javascript. Other than that I have not used anything else. I can not find the exact video I watched to put the link in here. Talked to Lars after class about it. I hope I did it right and if it is wrong I will talk to TA tomorrow. 
+I looked at Nolan's repo after I wrote my statement explaining the invariants. I added the to clarify after just to make sure I touched everything. I also watched a YouTube video a while back on the C++ Fibonacci function and I took the logic from it and wrote it into javascript. Other than that I have not used anything else. I can not find the exact video I watched to put the link in here. Talked to Lars after class about it. I hope I did it right and if it is wrong I will talk to TA tomorrow. Talked with the TA and concluded that it was return arr. 
 
 Plagiarism Statement: 
 “I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.”
