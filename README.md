@@ -32,7 +32,7 @@ your answer to this markdown file.
 ## Answer: 
 I am going to go more in-depth with this by reading my code and using examples. First, if we do fib(0) or fib(1), it will return either [0] or [0,1]. That is what the code tells us. For example when we fo fib(4) the code will call fib(3), fib(2), fib(1). It will start at fib(1) and work its way up to fib(4). Which will go through the const arr = fib(a-1) and store the elements in the array. Then it calls the certain element from the length of the array, adding those two values together and putting it back into the array. It will keep doing this until it reaches whatever value you put for a. In this case, the arr is the invariant, and the reason why is because contains all the values in the sequence up to fib(a-1). It stores all the values in the array. When we go to the math part of the code. It calls back that array takes whatever the length of the array is and substracts it by 1 or 2 in order to get the two elements it needs to add it together and adds that new value to the array to be stored. 
 
-**Second Review: **
+** Second Review: **
 
 The invariant would be at each call of fib(a). The array (arr) contains the Fibonacci sequences value up to fib(a-1) within the array. Which fib(5) would go back to fib(0) and give you [0, 1, 1, 2, 3, 5] as the array for fib(5)
 
